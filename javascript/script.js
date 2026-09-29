@@ -29,6 +29,8 @@ function Diferenca()
     num2 = Number(document.getElementById("num2").value);
     resultado2 = document.getElementById("resultado2");
 
+    let diferenca = 0;
+
     if(num1 < num2)
     {
        diferenca = num2 - num1;
